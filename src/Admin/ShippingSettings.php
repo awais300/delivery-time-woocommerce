@@ -22,7 +22,7 @@ class ShippingSettings {
 
 
 	/**
-	 * Global shipping settings.
+	 * Register custom tab for settings.
 	 * @param Array
 	 * @return Array
 	 */
@@ -31,6 +31,12 @@ class ShippingSettings {
 		return $section;
 	}
 
+	/**
+	 * Global product delivery time settings.
+	 * @param  Array $settings
+	 * @param  String $current_section
+	 * @return Array
+	 */
 	public function delivery_time_settings( $settings, $current_section ) {
 		$custom_settings = array();
 
