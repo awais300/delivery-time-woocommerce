@@ -1,0 +1,25 @@
+.dt-container {
+	padding: 5px 0 0 0;
+}
+
+.dt-container .dt-info p{
+	margin: 10px 0;
+}
+
+.dt-container .dt-hide{
+	display: none;
+}
+
+.dt-container .dt-cursor{
+	position: relative;
+	cursor: pointer;
+}
+
+#dt-spinner {
+	z-index: 100;
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	right: 25px;
+	display: none;
+}

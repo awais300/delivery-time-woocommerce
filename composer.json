@@ -1,0 +1,11 @@
+{
+  "name": "wpfactory/delivery-time-woocommerce",
+  "license": "GPL-3.0",
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "WPFactory\\DeliveryTime\\": "src/"
+    }
+  }
+}
